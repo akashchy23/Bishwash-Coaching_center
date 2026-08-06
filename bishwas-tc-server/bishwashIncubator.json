@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bishwash-coaching-center",
+  "private_key_id": "e509f84eb1023cc3b03088926980de12b8e8ee81",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDG/5uv3/Tnv84v\nMmSRYCoa7A3FQ1s+WKNSl6hMpIsx8Ok12+/4H8e0WVxUknbeJAVo3YOXJO1KSIbT\nLrIXAAk6ebi2pEbJxA41g0470cTQJeWeFibI0o1ZZIWNJbGK+IS0zNyVlbvZOvpr\nA67FNWTzGhG3ubHbiTWi0V5KyUc1Td6yo2uM1KrTtdVzx9Jeg+/4+BJYkrAyreyn\nJ8ch4a4QEWurkXtTnybcDi9mMNETlHt3fSUJAzS/QvODtd8xzVYy1VjH0l82dBlU\njMg1b2pT5Z8k/nHqctlh9ku0++VrmADkg3kVFIH5nJzfCI0BkBtR+r6DasldpmyF\nUUzpMqHzAgMBAAECggEACTHJOeZb+C+vKjDDJq2DSdrSYZ3b0gMh317H7hagadIH\nXj3Aa4UWm7IfSu/xtxBlj8/8xpCCm8ttvf5OgWxTZGL/fQW/w1XK19UgPU3habP3\ncaOf0iGv6CDZYGXFu26Py5PiCl/3rAZqFtZ9xyQYQj/mRchIZqTYe9tv2GH5Z3ef\n+5e4j2ejBRirFFTwhEw7Y+kibsXjn46XVFUaQ94VpGfR1V1+PZIAOJI0NrBi7A10\n0v8xya1DfE5TthddwGPTsMbYO0/V25CO4as+Q6gOqFc0y7kbrPhS7Nz6AE3eHylA\nCbUTTVq4NPozZbEGTmzJrHXdyTPzrMl3iMwusqME+QKBgQD+zA0nNrUH/MEXvMBI\n7cdgkMqsd75QJ6zDgeXyPdGjrnETyjX+ngGOWUhYD8MxLOVoCc86PwzU77gqJYaA\nTt/p6NYvwrh5rN4atd68aCJNB/4h0uA/CJieh82wtUnr2V3HMw0uGvHLXJYlhuOU\nSB8gaUabPELoiPIoCC+EJ4PE6wKBgQDH8B5OhJPFcLC+lqvlX+VvTTEoxWV9+cST\noi8jsR/SL02ctLb2ensnINdU3nyOSKfabCRVLF2iVwYIyCcbr6tMknOX9twEDT14\nBwckFpnKpop1IXxg5SGA6H4BS5QkbCp2/YIP8uCO5QCcR6Cr/MMiGNe4BmUOIo0i\neb77e791GQKBgAcgW+nR3ORZTGlGjTY8+EuaISELxFXnlixtsKnC0t86HM2J5VK2\nxqJdmuljn3j7oXr0c0hUxR4bilIbdJSYICkhqwPw9Unp7NhgZ9drLjJrW89EX6ND\nsUkV0Un0+BlRng7ZPbAhbsvaThTEng7iqYQ1jZT/7XslgWhfOjz/Ae97AoGAJkZf\nZuSWbVuvWiz550U+ZNpAKO/xB/bCnQiVQZ3s243Wq8Mkq3azEMCGuGaHLa3XBEdj\nhTKjEiraqt+2LOSqRFRc8KB/af8m301pHo19D4BmTRoF936ltUnMpW7Ug0x5rKHH\nPkpelrxcK47CwWn36RUcZsxCmDwhDJKF7xq3gjECgYAwcz6GLjZFKNgqG9GajEx4\nNdAgIghYzpCsbcP7c2bXk0Jr7ybtvyWtB9tB1uaJrPIRMtEGflc+qfz2VvfEpsIs\npHbTNKaichQLpfHoefBwRKu+IIUCw2FiUqyeoMqBlXuhZy0kDXEmfoLAoI+GkebT\n6YNsbyRCC9qQKbJd/Y1hJw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@bishwash-coaching-center.iam.gserviceaccount.com",
+  "client_id": "104721656157003078272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40bishwash-coaching-center.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

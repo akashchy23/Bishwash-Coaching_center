@@ -270,6 +270,28 @@ const DashNav = () => {
                       </NavLink>
                     </li>
                   )}
+                  {/* Todays Payment Info (Admin) */}
+                  {role === "admin" && (
+                    <li>
+                      <NavLink
+                        to="/dashboard/today-payment"
+                        onClick={closeMobileMenu}
+                        className={({ isActive }) =>
+                          `flex items-center justify-between rounded-lg px-3 py-2 text-xs font-bold transition-all ${
+                            isActive
+                              ? "bg-slate-900 text-white"
+                              : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                          }`
+                        }
+                      >
+                        <div className="flex items-center gap-2.5">
+                          <LuLayers size={16} className="text-emerald-500" />
+                          <span>Todays Payment Info</span>
+                        </div>
+                        <LuChevronRight size={14} className="text-slate-400" />
+                      </NavLink>
+                    </li>
+                  )}
                 </ul>
 
                 {/* Dropdown Action Buttons (Home & Logout) */}

@@ -2,7 +2,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const express = require('express');
 const cors = require("cors");
-const port = 5000;
+const port = process.env.PORT || 5000;
 require('dotenv').config();
 
 const app = express();
@@ -13,8 +13,7 @@ app.use(express.json());
 const admin = require("firebase-admin");
 const decoded = Buffer.from(process.env.FB_SERVICE_KEY, 'base64').toString('utf8')
 const serviceAccount = JSON.parse(decoded);
-console.log(admin);
-console.log(admin.credential);
+
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
@@ -69,7 +68,7 @@ async function run() {
     app.post("/user", async (req, res) => {
 
       const user = req.body
-      console.log(user)
+      // console.log(user)
       const existingUser = await userCollection.findOne({
         email: user.email,
       });
@@ -491,7 +490,7 @@ async function run() {
         res.send(result);
 
       } catch (error) {
-        console.log(error);
+       
 
         res.status(500).send({
           message: "Failed to save due payment",
@@ -530,7 +529,7 @@ async function run() {
 
       } catch (error) {
 
-        console.log(error);
+        
 
         res.status(500).send({
           message: "Failed to load due payments",
@@ -557,7 +556,7 @@ async function run() {
 
       } catch (error) {
 
-        console.log(error);
+       
 
         res.status(500).send({
           message: "Delete Failed",

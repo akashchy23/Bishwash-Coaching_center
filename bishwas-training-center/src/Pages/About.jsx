@@ -149,7 +149,7 @@ const About = () => {
                   Md Shafiul Bashar
                 </h3>
                 <p className="text-blue-600 font-bold text-sm tracking-widest uppercase mt-1">
-                  Chairman, Mobile Lab Training Center
+                  Chairman
                 </p>
               </div>
             </div>

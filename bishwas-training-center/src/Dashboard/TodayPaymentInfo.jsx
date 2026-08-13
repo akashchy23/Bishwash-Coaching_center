@@ -16,7 +16,7 @@ import {
   FaHandHoldingDollar,
 } from "react-icons/fa6";
 
-const BASE_URL = "https://api.bishwasctg.com/";
+const BASE_URL = "https://api.bishwasctg.com";
 
 const TodayPaymentDashboard = () => {
   // State Management

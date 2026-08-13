@@ -422,20 +422,13 @@ const AdmissionForm = () => {
                 <label className="block text-xs font-semibold text-gray-700 mb-1.5">
                   Preferred Time
                 </label>
-                <select
+                <input
+                  type="text"
                   name="preferredTime"
-                  className="w-full bg-gray-50 border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-gray-800 focus:outline-none focus:border-emerald-500 focus:bg-white transition"
-                  defaultValue=""
+                  className="w-full bg-gray-50 border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-emerald-500 focus:bg-white transition"
+                  placeholder="Enter Batch Time"
                   required
-                >
-                  <option value="" disabled>
-                    Select Batch Time
-                  </option>
-                  <option value="9:00 AM - 11:00 AM">9:00 AM - 11:00 AM</option>
-                  <option value="11:30 AM - 1:30 PM">11:30 AM - 1:30 PM</option>
-                  <option value="2:00 PM - 4:00 PM">2:00 PM - 4:00 PM</option>
-                  <option value="5:00 PM - 7:00 PM">5:00 PM - 7:00 PM</option>
-                </select>
+                />
               </div>
 
               <div>

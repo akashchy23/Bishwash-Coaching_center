@@ -63,7 +63,7 @@ const About = () => {
     },
     {
       id: 6,
-      name: 'সাজ্জাদ হোসেন মিরফাত',
+      name: 'নকিবুল কাওসার',
       role: 'সহকারী ট্রেইনার',
     
       image: asstTrainer2Img

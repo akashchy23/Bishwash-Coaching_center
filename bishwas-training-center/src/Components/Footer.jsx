@@ -129,14 +129,32 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <p>© {new Date().getFullYear()} Bishwas Mobile Training Institute. All rights reserved.</p>
-        <div className="flex space-x-6">
-          <Link to="/privacy" className="hover:underline hover:text-gray-800 transition-colors">
-            Privacy Policy
-          </Link>
-          <Link to="/terms" className="hover:underline hover:text-gray-800 transition-colors">
-            Terms of Service
-          </Link>
-        </div>
+        <div className="flex flex-wrap items-center gap-6">
+  <Link to="/privacy" className="hover:underline hover:text-gray-800 transition-colors">
+    Privacy Policy
+  </Link>
+  <Link to="/terms" className="hover:underline hover:text-gray-800 transition-colors">
+    Terms of Service
+  </Link>
+
+  {/* "Developed by Envoin" Pill Badge */}
+  <a
+    href="https://webmung.com" /* Replace with Envoin's actual URL */
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2.5 bg-white px-5 py-2.5 rounded-full border border-gray-100 shadow-[0_2px_10px_rgba(0,0,0,0.04)] hover:shadow-md transition-shadow"
+  >
+    <span className="text-slate-700 font-semibold text-sm tracking-tight">
+      Developed by
+    </span>
+    {/* Replace the src with your actual Envoin logo path */}
+    <img 
+      src="/src/assets/logo.png" 
+      alt="Web Mung" 
+      className="h-6 w-auto object-contain"
+    />
+  </a>
+</div>
       </div>
     </footer>
   );

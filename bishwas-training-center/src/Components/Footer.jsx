@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Phone, MapPin, Mail } from 'lucide-react';
 import logoBishwas from '../assets/IMG_8754.JPG.svg';
-
+import developerPng from '../assets/logo.png'
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-700 pt-12 pb-8 px-4 sm:px-6 lg:px-8 border-t border-gray-100 shadow-xs">
@@ -149,7 +149,7 @@ const Footer = () => {
     </span>
     {/* Replace the src with your actual Envoin logo path */}
     <img 
-      src="/src/assets/logo.png" 
+      src={developerPng}
       alt="Web Mung" 
       className="h-6 w-auto object-contain"
     />
